@@ -1,0 +1,39 @@
+
+
+.btn btn-primary {
+    background-color: blue;
+    color: white;
+}
+
+.card-columns {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.bottom {
+    background-color: darkgray;
+    color: white;
+    margin-top: 5%;
+}
+
+.navbar {
+    padding-top: 2%; 
+    margin-bottom: 5%;
+}
+
+.row {
+    margin: 10%, 10%, auto, 10%;
+    padding-top: 5%;
+    
+}
+
+.date {
+     background-color: gray;
+     border-radius: 50%;
+     width: 5px;
+}
+
+.bottom-footer {
+    background-color: darkslategray;
+
+}
