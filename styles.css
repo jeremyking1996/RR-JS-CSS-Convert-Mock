@@ -1,39 +1,169 @@
+/* Navbar */
+.navbar {
+    background-color: rgb(58, 61, 64);
+    color: white; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 1%;
+}
+.navbar a {
+  color:white;
+}
 
+.navbar navbar-expand-lg {
+  text-decoration: white; 
+}
+/* Column */
+.card-columns {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.card {
+  background-color: rgb(247, 247, 247);
+}
+
+.under-cards {
+
+  margin-left: 15%;
+}
+.row {
+    margin: 10%, 10%, auto, 10%;
+    padding-top: 5%;
+}
+
+
+.date {
+     background-color: rgb(236, 236, 236);
+     border-radius: 55%;
+     width: 40px;
+     text-align: center;
+     margin-right: 20px;
+}
+
+.relatedposts {
+    display: flex;
+}
+
+.responsebox {
+  display: flex;
+}
+
+.col-6 {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+#batman {
+  width: 55px;
+  height: 55px;
+}
+
+.response {
+  border: solid;
+  border-color: lightgrey;
+  background-color: lightgrey;
+}
+
+/* Footer */
+.bottom-footer {
+    background-color: rgba(47, 50, 53);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.bottom {
+    background-color: rgb(58, 61, 64);
+    color: white;
+    margin-top: 5%;
+}
 
 .btn btn-primary {
     background-color: blue;
     color: white;
 }
 
-.card-columns {
-    margin-left: 5%;
-    margin-right: 5%;
+#contentimage {
+  width: 450px;
+  height: 300px;
 }
 
-.bottom {
-    background-color: darkgray;
+.col-left {
+  margin-left: 15%;
+}
+
+.form-group {
+  margin-right: 15%;
+}
+
+.date-title {
+  display: flex;
+}
+
+#message {
+  background-color: rgb(39, 41, 43);
+  border: none;
+}
+
+
+/* social media links */
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+}
+
+  .fa-reddit {
+    background: #ff5700;
     color: white;
-    margin-top: 5%;
-}
+  }
+  
+  .fa-rss {
+    background: #ff6600;
+    color: white;
+  }
 
-.navbar {
-    padding-top: 2%; 
-    margin-bottom: 5%;
-}
+  .fa-flickr {
+    background: #f40083;
+    color: white;
+  }
 
-.row {
-    margin: 10%, 10%, auto, 10%;
-    padding-top: 5%;
-    
-}
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }  
 
-.date {
-     background-color: gray;
-     border-radius: 50%;
-     width: 5px;
-}
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
 
-.bottom-footer {
-    background-color: darkslategray;
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
 
-}
+  .bottom-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .bottom-footer__social
+  {
+    display: flex;
+   /* justify-content: space-evenly; */
+    width:50%;
+  }
