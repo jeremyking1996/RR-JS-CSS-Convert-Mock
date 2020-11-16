@@ -4,10 +4,6 @@
     color: white; 
     display: flex;
     align-items: center;
-    margin-bottom: 1%;
-}
-.navbar a {
-  color:white;
 }
 
 .navbar navbar-expand-lg {
@@ -17,6 +13,7 @@
 .card-columns {
     margin-left: 15%;
     margin-right: 15%;
+    margin-top: 5%;
 }
 
 .card {
@@ -43,6 +40,7 @@
 
 .relatedposts {
     display: flex;
+    width: 140px;
 }
 
 .responsebox {
@@ -76,7 +74,9 @@
     background-color: rgb(58, 61, 64);
     color: white;
     margin-top: 5%;
+    padding-bottom: 5%;
 }
+
 
 .btn btn-primary {
     background-color: blue;
@@ -164,6 +164,5 @@
   .bottom-footer__social
   {
     display: flex;
-   /* justify-content: space-evenly; */
-    width:50%;
+    width:20%;
   }
